@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Napoleão Buffet — Análise prévia de Instagram · Rafael Dias</title>
+<meta name="description" content="Análise prévia do Instagram do Napoleão Buffet, com recomendações para alcance, engajamento e visitas agendadas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--c0:#eeeeee;--c1:#e4e4e4;--c2:#c4c4c4;--c3:#5e5e5e;--c4:#434343;--c5:#1c1c1c;--c6:#121212;
+--grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;height:100%;overflow:hidden;overflow-x:hidden;background:var(--c5)}
+body{font-family:'Poppins',sans-serif;font-weight:300;color:var(--c5);-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:900;background-image:var(--grain);opacity:.16;mix-blend-mode:overlay}
+button{font-family:inherit}
+
+/* sections */
+.section{position:fixed;inset:0;overflow-y:auto;overflow-x:hidden;display:flex;flex-direction:column;
+  padding:112px 7vw 0;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility .7s;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.section::-webkit-scrollbar{display:none}
+.section::after{content:"";flex:0 0 120px}
+.section.active{opacity:1;visibility:visible;z-index:2}
+.section[data-theme="light"]{background:linear-gradient(150deg,#eeeeee 0%,#e4e4e4 60%,#c4c4c4 100%);color:var(--c5)}
+.section[data-theme="dark"]{background:linear-gradient(150deg,#5e5e5e 0%,#434343 35%,#1c1c1c 100%);color:var(--c0)}
+.inner{position:relative;z-index:3;width:100%;max-width:1180px;margin:auto 0}
+.blob{position:absolute;border-radius:50%;filter:blur(120px);z-index:1;pointer-events:none;transition:transform 1.6s ease}
+.b-l1a{width:60vw;height:24vw;background:#c4c4c4;top:8%;left:-14vw;opacity:.75;transform:rotate(-24deg)}
+.b-l1b{width:40vw;height:18vw;background:#e4e4e4;bottom:-6vw;right:-10vw;opacity:.8;transform:rotate(-20deg)}
+.b-l2a{width:50vw;height:20vw;background:#c4c4c4;top:-6vw;right:-12vw;opacity:.72;transform:rotate(-22deg)}
+.b-l2b{width:55vw;height:20vw;background:#c4c4c4;bottom:-4vw;left:10%;opacity:.6;transform:rotate(-28deg)}
+.b-l3a{width:55vw;height:22vw;background:#c4c4c4;top:40%;right:-15vw;opacity:.7;transform:rotate(-30deg)}
+.b-l3b{width:40vw;height:16vw;background:#e4e4e4;top:-4vw;left:-8vw;opacity:.8;transform:rotate(-18deg)}
+.b-d1a{width:62vw;height:24vw;background:#5e5e5e;top:18%;left:-14vw;opacity:.55;transform:rotate(-22deg)}
+.b-d1b{width:42vw;height:19vw;background:#434343;bottom:-7vw;right:-9vw;opacity:.6;transform:rotate(-30deg)}
+.b-d2a{width:56vw;height:22vw;background:#5e5e5e;top:-4vw;right:-10vw;opacity:.5;transform:rotate(-26deg)}
+.b-d2b{width:44vw;height:18vw;background:#434343;bottom:-6vw;left:-8vw;opacity:.6;transform:rotate(-24deg)}
+.section.active .blob{transform:rotate(-24deg) translateX(2vw)}
+
+.bgfx{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:1}
+/* reveal */
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease;transition-delay:0s}
+.section.active .rv{opacity:1;transform:none;transition-delay:var(--d,0s)}
+.reveal-list>*{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.section.active .reveal-list>*{opacity:1;transform:none}
+.section.active .reveal-list > *:nth-child(1){transition-delay:0.20s}
+.section.active .reveal-list > *:nth-child(2){transition-delay:0.27s}
+.section.active .reveal-list > *:nth-child(3){transition-delay:0.34s}
+.section.active .reveal-list > *:nth-child(4){transition-delay:0.41s}
+.section.active .reveal-list > *:nth-child(5){transition-delay:0.48s}
+.section.active .reveal-list > *:nth-child(6){transition-delay:0.55s}
+.section.active .reveal-list > *:nth-child(7){transition-delay:0.62s}
+.section.active .reveal-list > *:nth-child(8){transition-delay:0.69s}
+.section.active .reveal-list > *:nth-child(9){transition-delay:0.76s}
+.section.active .reveal-list > *:nth-child(10){transition-delay:0.83s}
+.section.active .reveal-list > *:nth-child(11){transition-delay:0.90s}
+.section.active .reveal-list > *:nth-child(12){transition-delay:0.97s}
+.section.active .reveal-list > *:nth-child(13){transition-delay:1.04s}
+.section.active .reveal-list > *:nth-child(14){transition-delay:1.11s}
+.section.active .reveal-list > *:nth-child(15){transition-delay:1.18s}
+.section.active .reveal-list > *:nth-child(16){transition-delay:1.25s}
+
+/* chrome */
+#brandbar{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:30px 7vw;pointer-events:none;transition:color .5s}
+#brandbar .marca{font-size:20px;letter-spacing:.01em;white-space:nowrap}
+.marca span{font-weight:200}.marca b{font-weight:700}
+#brandbar .signature{font-size:13px;letter-spacing:.02em;color:var(--muted)}
+body[data-theme="light"]{--fg:#1c1c1c;--muted:#5e5e5e;--pill:rgba(238,238,238,.55);--pillb:rgba(28,28,28,.12)}
+body[data-theme="dark"]{--fg:#eeeeee;--muted:#c4c4c4;--pill:rgba(28,28,28,.45);--pillb:rgba(238,238,238,.16)}
+#brandbar,#controls,#sidenav{color:var(--fg)}
+#progress{position:fixed;top:0;left:0;height:2px;background:var(--fg);opacity:.5;z-index:60;width:0;transition:width .6s ease,background .5s}
+
+#controls{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:50;display:flex;align-items:center;gap:6px;padding:6px;border-radius:999px;
+  background:var(--pill);border:1px solid var(--pillb);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);transition:background .5s,border-color .5s}
+#controls button{background:none;border:0;color:inherit;width:40px;height:40px;border-radius:50%;cursor:pointer;display:grid;place-items:center;font-size:16px;transition:background .2s}
+#controls button:hover{background:var(--pillb)}
+#controls button:disabled{opacity:.3;cursor:default}
+#counter{font-size:13px;letter-spacing:.06em;min-width:64px;text-align:center;font-variant-numeric:tabular-nums}
+#menubtn{display:none!important}
+
+#sidenav{position:fixed;right:26px;top:50%;transform:translateY(-50%);z-index:50;display:flex;flex-direction:column;gap:10px}
+#sidenav button{position:relative;width:8px;height:8px;border-radius:50%;border:0;padding:0;cursor:pointer;background:var(--fg);opacity:.25;transition:opacity .3s,transform .3s}
+#sidenav button.on{opacity:1;transform:scale(1.35)}
+#sidenav button:hover{opacity:.8}
+#sidenav button span{position:absolute;right:20px;top:50%;transform:translateY(-50%);white-space:nowrap;font-size:12px;padding:5px 10px;border-radius:999px;background:var(--pill);border:1px solid var(--pillb);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--fg);opacity:0;pointer-events:none;transition:opacity .2s}
+#sidenav button:hover span{opacity:1}
+
+#mnavsheet{position:fixed;inset:0;z-index:80;display:none;background:rgba(18,18,18,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+#mnavsheet.open{display:block}
+#mnavsheet .sheet{position:absolute;left:12px;right:12px;bottom:12px;max-height:72vh;overflow-y:auto;background:#1c1c1c;color:#eeeeee;border-radius:20px;padding:22px 20px;border:1px solid rgba(238,238,238,.12)}
+#mnavsheet .sheet h3{margin:0 0 12px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:#a9a9a9}
+#mnavsheet .sheet button{display:flex;gap:14px;width:100%;text-align:left;background:none;border:0;color:inherit;font-size:15px;padding:11px 4px;border-bottom:1px solid rgba(238,238,238,.08);cursor:pointer}
+#mnavsheet .sheet button b{font-weight:600;color:#a9a9a9;min-width:24px;font-variant-numeric:tabular-nums}
+#mnavsheet .sheet button.on{color:#fff}#mnavsheet .sheet button.on b{color:#fff}
+
+/* type */
+.kicker{text-transform:uppercase;font-weight:600;letter-spacing:.22em;font-size:11.5px;color:#5e5e5e}
+[data-theme="dark"] .kicker{color:#c4c4c4}
+h1.headline{font-weight:200;font-size:clamp(34px,5vw,64px);line-height:1.06;letter-spacing:-.02em;margin:18px 0 0;max-width:1100px}
+h1.headline b,h2.section-title b{font-weight:700}
+h2.section-title{font-weight:300;font-size:clamp(28px,3.4vw,44px);line-height:1.12;margin:10px 0 0;max-width:1180px}
+h1.headline.cover-title{font-size:clamp(32px,4.3vw,60px);max-width:1180px}
+.br-lg{display:none}
+@media (min-width:701px){.br-lg{display:inline}}
+p.lede{font-size:clamp(15px,1.25vw,17px);line-height:1.65;color:#434343;max-width:680px;margin:20px 0 0}
+.cover-sub{margin-top:22px;font-size:clamp(15px,1.25vw,17px);color:#c4c4c4;max-width:580px;line-height:1.6}
+.caption-block{font-size:13px;line-height:1.7;color:#5e5e5e;margin-top:64px}
+[data-theme="dark"] .caption-block{color:#a9a9a9}
+.legal-note{font-size:10.5px;line-height:1.6;color:#5e5e5e;opacity:.75;max-width:700px;margin-top:18px}
+.note{font-size:14px;line-height:1.6;color:#434343;max-width:900px;margin-top:24px}
+.source{font-size:11.5px;color:#5e5e5e;margin-top:26px}
+.body-area{margin-top:32px}
+
+.numeral{position:absolute;right:-2vw;bottom:-6vw;font-weight:900;line-height:.8;letter-spacing:-.07em;font-size:clamp(220px,36vw,540px);color:#fff;opacity:.07;mix-blend-mode:screen;z-index:2;pointer-events:none}
+
+/* sumário */
+.sumlist{display:grid;grid-auto-flow:column;grid-template-rows:repeat(5,auto);grid-template-columns:1fr 1fr;gap:6px 64px;margin-top:40px}
+.sumlist button{display:flex;align-items:baseline;gap:14px;text-align:left;background:none;border:0;border-bottom:1px solid #5e5e5e;color:#e4e4e4;font-size:clamp(15px,1.4vw,18px);font-weight:300;padding:14px 0;cursor:pointer;transition:padding .25s,color .25s,border-color .25s}
+.sumlist button b{font-weight:700;color:#eeeeee;font-variant-numeric:tabular-nums}
+.sumlist button:hover{padding-left:10px;color:#fff;border-color:#c4c4c4}
+
+/* tags */
+.tagrow{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+.tag{font-size:12.5px;letter-spacing:.04em;padding:7px 15px;border:1px solid #c4c4c4;border-radius:999px;color:#434343;background:rgba(255,255,255,.25);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+
+/* lists */
+ul.findlist{list-style:none;margin:0;padding:0}
+ul.findlist li{position:relative;padding-left:24px;margin-bottom:16px;font-size:clamp(15px,1.25vw,17px);line-height:1.6;color:#2f2f2f;max-width:960px}
+ul.findlist li::before{content:"•";position:absolute;left:0;top:0;color:#1c1c1c}
+ul.findlist li b{font-weight:700}
+
+/* tables */
+table.diag{border-collapse:collapse;width:100%;table-layout:fixed}
+table.diag th{text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#5e5e5e;font-weight:600;padding:0 18px 10px 0;border-bottom:1px solid #c4c4c4}
+table.diag td{text-align:left;font-size:14.5px;color:#2a2a2a;padding:12px 18px 12px 0;border-bottom:1px solid rgba(28,28,28,.1);vertical-align:top;line-height:1.5}
+table.diag td.chan{font-weight:700}
+table.diag tbody tr{transition:background .25s}
+table.diag tbody tr:hover{background:rgba(255,255,255,.35)}
+
+/* cards */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 36px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{padding-top:18px;border-top:2px solid #1c1c1c;transition:transform .3s ease}
+.card .k{font-size:16px;font-weight:600}
+.card .v{font-size:14.5px;margin-top:10px;line-height:1.6;color:#434343}
+.card .n{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#5e5e5e;margin-bottom:12px}
+.card.step,.card.stat{padding:22px 22px 24px;background:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.65);border-top:2px solid #1c1c1c;border-radius:0 0 16px 16px;backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%)}
+.card.hl{background:#1c1c1c;border-color:#1c1c1c}
+.card.hl .k,.card.hl .big{color:#eeeeee}.card.hl .v{color:#c4c4c4}.card.hl .n{color:#a9a9a9}
+.card.step:hover,.card.stat:hover,.grid3 .card:hover{transform:translateY(-4px)}
+.big{font-size:clamp(40px,4vw,56px);font-weight:200;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.funnel{position:relative}
+
+/* quotes */
+.quote-wrap{display:flex;flex-direction:column;align-items:center;text-align:center;margin:0 auto}
+.quote{font-weight:200;font-size:clamp(26px,3.5vw,48px);line-height:1.28;max-width:980px;color:#eeeeee}
+.quote b{font-weight:700}
+.quote-sub{margin-top:26px;font-size:clamp(14px,1.2vw,16px);line-height:1.65;color:#a9a9a9;max-width:640px}
+
+/* responsive */
+@media (max-width:1100px){.grid4{grid-template-columns:1fr 1fr}}
+@media (max-width:900px){
+  #sidenav{display:none}
+  #menubtn{display:grid!important}
+  #brandbar{padding:22px 6vw}
+  #brandbar .marca{font-size:16px}
+  .section{padding:96px 6vw 0}
+  #brandbar{background:var(--pill);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);border-bottom:1px solid var(--pillb)}
+  .grid3{grid-template-columns:1fr 1fr}
+}
+@media (max-width:700px){
+  .grid3,.grid4{grid-template-columns:1fr}
+  .sumlist{grid-auto-flow:row;grid-template-rows:none;grid-template-columns:1fr;gap:0}
+  table.diag,table.diag tbody,table.diag tr,table.diag td{display:block;width:100%}
+  table.diag colgroup,table.diag thead{display:none}
+  table.diag tr{padding:14px 0;border-bottom:1px solid rgba(28,28,28,.12)}
+  table.diag td{border:0;padding:2px 0}
+  table.diag td.chan{font-size:15px;margin-bottom:4px}
+  table.diag td[data-label]:not(:nth-child(2))::before{content:attr(data-label) ": ";font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#5e5e5e}
+  .caption-block{margin-top:40px}
+  .numeral{bottom:-2vw}
+}
+@media (max-width:480px){#brandbar .signature{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body data-theme="dark">
+<div id="progress"></div>
+<header id="brandbar"><span class="marca"><span>Rafael</span> <b>Dias</b></span><span class="signature">Designer gráfico e criador audiovisual</span></header>
+<section class="section" id="capa" data-theme="dark" aria-label="Capa"><div class="bgfx" aria-hidden="true"><div class="blob b-d1a"></div><div class="blob b-d1b"></div><div class="numeral">31</div></div><div class="inner">
+<div class="kicker rv">Napoleão Buffet · Análise prévia de Instagram</div>
+<h1 class="headline cover-title rv" style="--d:.1s">Mais de três décadas de festas.<br class="br-lg"> Hora de o Instagram <b>contar</b> essa história.</h1>
+<p class="cover-sub rv" style="--d:.2s">Leitura inicial do perfil @napoleaobuffet, com recomendações práticas para ganhar alcance, engajamento e mais visitas agendadas.</p>
+<div class="caption-block rv" style="--d:.3s">Rafael Dias · Designer gráfico e criador audiovisual<br>Preparado para Napoleão Buffet<br>Outubro de 2026</div>
+</div></section>
+<section class="section" id="sumario" data-theme="dark" aria-label="Sumário"><div class="bgfx" aria-hidden="true"><div class="blob b-d2a"></div><div class="blob b-d2b"></div></div><div class="inner"><div class="kicker rv">Sumário</div><h2 class="section-title rv" style="--d:.08s">Da leitura do perfil às <b>primeiras ações</b>.</h2><div class="sumlist reveal-list"><button type="button" onclick="goToId('contexto')"><b>01</b>Contexto e escopo</button><button type="button" onclick="goToId('retrato')"><b>02</b>Retrato atual do perfil</button><button type="button" onclick="goToId('algoritmo')"><b>03</b>Como o Instagram distribui conteúdo</button><button type="button" onclick="goToId('ativos')"><b>04</b>Ativos a aproveitar</button><button type="button" onclick="goToId('atencao')"><b>05</b>Pontos de atenção</button><button type="button" onclick="goToId('ajustes')"><b>06</b>Ajustes para começar já</button><button type="button" onclick="goToId('editorias')"><b>07</b>Editorias de conteúdo</button><button type="button" onclick="goToId('funil')"><b>08</b>Do conteúdo à visita</button><button type="button" onclick="goToId('producao')"><b>09</b>Produção e parcerias</button><button type="button" onclick="goToId('medicao')"><b>10</b>Medição e próximos passos</button></div></div></section>
+<section class="section" id="contexto" data-theme="light" aria-label="Contexto e escopo"><div class="bgfx" aria-hidden="true"><div class="blob b-l1a"></div><div class="blob b-l1b"></div></div><div class="inner"><div class="kicker rv">Contexto e escopo</div><h2 class="section-title rv" style="--d:.08s">Uma <b>análise prévia</b>, com ações para começar já.</h2>
+<p class="lede rv" style="--d:.16s">Este material reúne uma primeira leitura do Instagram do Napoleão Buffet e recomendações que podem ser aplicadas desde o início do trabalho. O objetivo é duplo: aumentar o alcance e o engajamento do perfil e transformar esse interesse em visitas agendadas com a equipe de vendas, onde os contratos são fechados.</p>
+<p class="lede rv" style="--d:.22s">A análise considera o perfil (com atenção às publicações de agosto a outubro de 2026), o site oficial e as boas práticas atuais da plataforma. Ela será aprofundada quando tivermos acesso aos dados internos do Instagram.</p>
+<div class="tagrow reveal-list"><span class="tag">Desde 1995</span><span class="tag">5 salões</span><span class="tag">44,9 mil seguidores</span><span class="tag">1.386 publicações</span><span class="tag">Casamentos e 15 anos</span><span class="tag">São Bernardo do Campo</span></div>
+</div></section>
+<section class="section" id="insight-1" data-theme="dark" aria-label="Voz própria"><div class="bgfx" aria-hidden="true"><div class="blob b-d1a"></div><div class="blob b-d1b"></div></div><div class="inner"><div class="quote-wrap"><div class="quote rv">O Napoleão já tem <b>voz própria</b> nas legendas. As imagens, porém, ainda mostram quase sempre o olhar de <b>quem filmou a festa</b>.</div><div class="quote-sub rv" style="--d:.25s">As coberturas das produtoras são bonitas e valiosas, mas sozinhas não mostram o que só o buffet pode mostrar: os bastidores, a cozinha, a equipe e o cuidado por trás de cada evento.</div></div></div></section>
+<section class="section" id="retrato" data-theme="light" aria-label="Retrato atual do perfil"><div class="bgfx" aria-hidden="true"><div class="blob b-l2a"></div><div class="blob b-l2b"></div></div><div class="inner"><div class="kicker rv">Retrato atual do perfil</div><h2 class="section-title rv" style="--d:.08s">Boa frequência, boas legendas<br class="br-lg"> e pouca <b>imagem própria</b>.</h2><div class="body-area"><table class="diag"><colgroup><col style="width:16%"><col style="width:84%"></colgroup><thead><tr><th>Frente</th><th>O que observamos</th></tr></thead><tbody class="reveal-list"><tr><td class="chan">Frequência</td><td data-label="O que observamos">Cerca de 3 publicações por semana entre agosto e outubro de 2026. O ritmo é bom; o ponto a trabalhar é o tipo de conteúdo.</td></tr><tr><td class="chan">Legendas</td><td data-label="O que observamos">Textos próprios, bem escritos e com tom emocional, apresentando os cinco espaços e as histórias de cada festa.</td></tr><tr><td class="chan">Imagens</td><td data-label="O que observamos">Quase todas vêm das produtoras de cada evento. Há poucos registros feitos pelo próprio buffet (bastidores, cozinha, equipe).</td></tr><tr><td class="chan">Formatos</td><td data-label="O que observamos">Predominam fotos e carrosséis. Os Reels próprios são raros e, em geral, reaproveitam vídeos das produtoras.</td></tr><tr><td class="chan">Bio</td><td data-label="O que observamos">“Há 30 anos” desatualizado (o buffet é de 1995), chamada “Faça um orçamento” e link para o site, sem acesso direto ao WhatsApp.</td></tr><tr><td class="chan">Destaques</td><td data-label="O que observamos">Ícones com identidade visual bem resolvida, mas conteúdo antigo em parte deles, como Gastronomia.</td></tr><tr><td class="chan">Fixados</td><td data-label="O que observamos">Os três posts fixados são de 2025 e não refletem a fase atual do perfil.</td></tr></tbody></table></div></div></section>
+<section class="section" id="numeros" data-theme="light" aria-label="O que os números mostram"><div class="bgfx" aria-hidden="true"><div class="blob b-l3a"></div><div class="blob b-l3b"></div></div><div class="inner"><div class="kicker rv">O que os números mostram</div><h2 class="section-title rv" style="--d:.08s">Histórias reais e parcerias <b>engajam mais</b>.</h2><p class="lede rv" style="--d:.16s">Levantamento das publicações de 12 de agosto a 26 de outubro de 2026, com base nas curtidas públicas de cada post.</p><div class="body-area grid4 reveal-list"><div class="card stat"><div class="n">Média geral</div><div class="big"><span class="count" data-to="84">0</span></div><div class="v">curtidas por post próprio, cerca de 0,2% dos 44,9 mil seguidores.</div></div><div class="card stat hl"><div class="n">Posts em Collab</div><div class="big">~<span class="count" data-to="200">0</span></div><div class="v">curtidas em média nos posts feitos em parceria com as produtoras, mais que o dobro dos demais.</div></div><div class="card stat"><div class="n">Festas reais</div><div class="big">~<span class="count" data-to="120">0</span></div><div class="v">curtidas em média nos posts que contam a festa de alguém pelo nome (debutante, casal, aniversariante).</div></div><div class="card stat"><div class="n">Espaços descritos</div><div class="big">~<span class="count" data-to="75">0</span></div><div class="v">curtidas em média nos posts que apresentam um salão sem uma história por trás.</div></div></div><p class="note rv" style="--d:.5s">Os Reels próprios, que hoje reaproveitam material das produtoras, ficaram abaixo da média (cerca de 50 curtidas). Os dados internos do Instagram (alcance, envios e salvamentos) vão confirmar e aprofundar essa leitura.</p></div></section>
+<section class="section" id="algoritmo" data-theme="light" aria-label="Como o Instagram distribui conteúdo"><div class="bgfx" aria-hidden="true"><div class="blob b-l1a"></div><div class="blob b-l1b"></div></div><div class="inner"><div class="kicker rv">Como o Instagram distribui conteúdo</div><h2 class="section-title rv" style="--d:.08s">A plataforma hoje premia o <b>conteúdo original</b>.</h2><div class="body-area"><ul class="findlist reveal-list"><li><b>Original em primeiro lugar.</b> Quando a plataforma identifica conteúdos idênticos, recomenda apenas o original. Ao publicar o vídeo da produtora, o alcance para novos públicos tende a ficar com quem o criou.</li><li><b>Perfis que publicam majoritariamente material de terceiros</b> perdem espaço nas recomendações (Explorar, Reels e sugestões de contas).</li><li><b>Três sinais pesam mais:</b> tempo de visualização, curtidas e envios por mensagem. Os envios contam ainda mais para alcançar quem ainda não segue o perfil.</li><li><b>Reels</b> são o principal formato de descoberta. <b>Carrosséis</b> geram salvamentos e voltam a aparecer para quem passou direto.</li><li><b>Busca no lugar de hashtag.</b> Nome do perfil, bio e legendas com termos como “buffet de casamento em São Bernardo do Campo” ajudam a ser encontrado por quem está pesquisando.</li></ul></div><p class="source rv" style="--d:.6s">Fontes: comunicado do Instagram sobre conteúdo original (abril de 2024) e declarações de Adam Mosseri, chefe do Instagram (janeiro de 2025).</p></div></section>
+<section class="section" id="insight-2" data-theme="dark" aria-label="A pergunta-guia"><div class="bgfx" aria-hidden="true"><div class="blob b-d2a"></div><div class="blob b-d2b"></div></div><div class="inner"><div class="quote-wrap"><div class="quote rv">A pergunta-guia de cada publicação: <b>alguém mandaria isso para a noiva, a mãe ou a amiga?</b></div><div class="quote-sub rv" style="--d:.25s">Festa de casamento e de 15 anos é uma decisão tomada em família. Conteúdo que circula por mensagem chega exatamente a quem está escolhendo onde celebrar.</div></div></div></section>
+<section class="section" id="ativos" data-theme="light" aria-label="Ativos a aproveitar"><div class="bgfx" aria-hidden="true"><div class="blob b-l2a"></div><div class="blob b-l2b"></div></div><div class="inner"><div class="kicker rv">Ativos a aproveitar</div><h2 class="section-title rv" style="--d:.08s">Diferenciais que já existem e ainda <b>não aparecem</b>.</h2><div class="body-area grid3 reveal-list"><div class="card"><div class="k">31 anos de história</div><div class="v">Desde 1995, começou como uma cafeteria e virou referência em celebrações no ABC. Tradição transmite segurança a quem vai investir na festa.</div></div><div class="card"><div class="k">Cinco salões, cinco conceitos</div><div class="v">Napoleão, Paris, Praça, Provence e Terraço, de 75 a 500 convidados. O teto retrátil do Terraço é, por si só, um vídeo de impacto.</div></div><div class="card"><div class="k">Cozinha própria</div><div class="v">Gastronomia autoral e de alta qualidade, feita dentro de casa. Um diferencial que pode ser mostrado em todas as etapas.</div></div><div class="card"><div class="k">Tudo incluso</div><div class="v">Decoração no pacote e serviço de valet. Deixar claro o que está incluso responde à principal dúvida de quem está orçando.</div></div><div class="card"><div class="k">Localização</div><div class="v">Centro de São Bernardo do Campo, com acesso pela Anchieta. Praticidade para convidados de todo o ABC e da capital.</div></div><div class="card"><div class="k">Depoimentos reais</div><div class="v">Noivos e famílias já elogiam espaço, comida, decoração e equipe. Prova social pronta para virar conteúdo.</div></div></div></div></section>
+<section class="section" id="atencao" data-theme="light" aria-label="Pontos de atenção"><div class="bgfx" aria-hidden="true"><div class="blob b-l3a"></div><div class="blob b-l3b"></div></div><div class="inner"><div class="kicker rv">Pontos de atenção</div><h2 class="section-title rv" style="--d:.08s">Pontos de <b>atenção</b>.</h2><div class="body-area"><table class="diag"><colgroup><col style="width:24%"><col style="width:76%"></colgroup><thead><tr><th>Frente</th><th>O que observar</th></tr></thead><tbody class="reveal-list"><tr><td class="chan">Conteúdo de terceiros</td><td data-label="O que observar">Publicar o arquivo da produtora como post próprio limita o alcance. Os posts em Collab, já usados em parte do perfil, tiveram o melhor desempenho e podem virar o padrão para esse material.</td></tr><tr><td class="chan">Direito de uso</td><td data-label="O que observar">Formalizar a autorização das produtoras e dos clientes para uso das imagens. Em festas de 15 anos, a autorização deve vir dos pais ou responsáveis.</td></tr><tr><td class="chan">Destaques e fixados</td><td data-label="O que observar">Destaques com conteúdo antigo (como Gastronomia) e posts fixados de 2025 passam a impressão de um perfil menos ativo do que ele é.</td></tr><tr><td class="chan">Chamada para ação</td><td data-label="O que observar">Legendas convidam a “vir conhecer”, mas não indicam como. Cada conteúdo deve apontar um próximo passo claro: agendar uma visita pelo WhatsApp.</td></tr><tr><td class="chan">Medição</td><td data-label="O que observar">Sem registrar a origem dos contatos, não há como saber o retorno do Instagram em visitas e contratos.</td></tr></tbody></table></div></div></section>
+<section class="section" id="direcao" data-theme="dark" aria-label="Direção"><div class="bgfx" aria-hidden="true"><div class="blob b-d1a"></div><div class="blob b-d1b"></div></div><div class="inner"><div class="quote-wrap"><div class="quote rv">A festa continua no centro, agora contada também pelo olhar de quem a faz acontecer.</div><div class="quote-sub rv" style="--d:.25s">O material das produtoras segue no perfil, em parceria e com crédito. Ao redor dele, entra o conteúdo próprio do Napoleão: salões, cozinha, equipe, bastidores e histórias de clientes.</div></div></div></section>
+<section class="section" id="ajustes" data-theme="light" aria-label="Ajustes para começar já"><div class="bgfx" aria-hidden="true"><div class="blob b-l1a"></div><div class="blob b-l1b"></div></div><div class="inner"><div class="kicker rv">Ajustes para começar já</div><h2 class="section-title rv" style="--d:.08s">Ações de <b>impacto imediato</b>.</h2><div class="body-area"><ul class="findlist reveal-list"><li><b>Bio atualizada:</b> trocar “Há 30 anos” por “Desde 1995”, incluir “casamentos e 15 anos em São Bernardo do Campo” no nome ou na bio e mudar a chamada para “Agende sua visita”.</li><li><b>Link de WhatsApp com mensagem pronta</b> (“Olá, vi no Instagram e quero agendar uma visita”), que já identifica a origem do contato.</li><li><b>Destaques renovados:</b> manter os ícones atuais e atualizar o conteúdo, começando por Gastronomia. Incluir “Tá incluso” e “Como chegar e valet”.</li><li><b>Fixados atualizados</b> com conteúdo de 2026: tour pelos cinco salões, o que está incluso no pacote e uma festa real recente.</li><li><b>Collab como padrão</b> para todo material das produtoras, já que esse formato teve o melhor desempenho do período.</li><li><b>Legendas com palavra-chave local</b> (“casamento em São Bernardo do Campo”, “festa de 15 anos no ABC”) no lugar de hashtags genéricas como #evento e #festa.</li></ul></div></div></section>
+<section class="section" id="editorias" data-theme="light" aria-label="Editorias de conteúdo"><div class="bgfx" aria-hidden="true"><div class="blob b-l2a"></div><div class="blob b-l2b"></div></div><div class="inner"><div class="kicker rv">Editorias de conteúdo</div><h2 class="section-title rv" style="--d:.08s">Oito editorias para um <b>conteúdo próprio</b>.</h2><div class="body-area"><table class="diag"><colgroup><col style="width:22%"><col style="width:56%"><col style="width:22%"></colgroup><thead><tr><th>Editoria</th><th>O que mostra</th><th>Formato</th></tr></thead><tbody class="reveal-list"><tr><td class="chan">Os 5 Espaços</td><td data-label="O que mostra">Evolução da série que já existe: tours em vídeo gravados pelo buffet, um salão por vez</td><td data-label="Formato">Reels + Destaque</td></tr><tr><td class="chan">Cozinha Napoleão</td><td data-label="O que mostra">Chef, preparo, empratamento e degustação</td><td data-label="Formato">Reels</td></tr><tr><td class="chan">Tá Incluso</td><td data-label="O que mostra">Decoração, valet e equipe: tudo o que já vem no pacote</td><td data-label="Formato">Carrossel</td></tr><tr><td class="chan">Do Vazio à Festa</td><td data-label="O que mostra">Timelapse da montagem até o salão pronto para receber os convidados</td><td data-label="Formato">Reels</td></tr><tr><td class="chan">Festa Real</td><td data-label="O que mostra">A festa de alguém contada pelo nome, em Collab com a produtora</td><td data-label="Formato">Carrossel / Reels Collab</td></tr><tr><td class="chan">Guia da Noiva e da Debutante</td><td data-label="O que mostra">Checklists, cronogramas e dicas para planejar a festa</td><td data-label="Formato">Carrossel</td></tr><tr><td class="chan">Desde 1995</td><td data-label="O que mostra">A trajetória da cafeteria aos cinco salões, a equipe e as histórias da casa</td><td data-label="Formato">Carrossel / Reels</td></tr><tr><td class="chan">Quem Viveu</td><td data-label="O que mostra">Depoimentos de noivos, debutantes e famílias</td><td data-label="Formato">Cards + Stories</td></tr></tbody></table></div></div></section>
+<section class="section" id="funil" data-theme="light" aria-label="Do conteúdo à visita"><div class="bgfx" aria-hidden="true"><div class="blob b-l3a"></div><div class="blob b-l3b"></div></div><div class="inner"><div class="kicker rv">Do conteúdo à visita</div><h2 class="section-title rv" style="--d:.08s">Cada publicação leva a uma <b>visita agendada</b>.</h2><p class="lede rv" style="--d:.16s">Como a venda acontece no buffet, o papel do Instagram é atrair e preparar o cliente para a visita. O conteúdo é organizado em quatro etapas.</p><div class="body-area grid4 funnel reveal-list"><div class="card step"><div class="n">01 · Descoberta</div><div class="k">Reels</div><div class="v">Salões, cozinha e montagens alcançam quem ainda não conhece o Napoleão.</div></div><div class="card step"><div class="n">02 · Consideração</div><div class="k">Carrosséis e Destaques</div><div class="v">Guias, “Tá incluso” e depoimentos respondem às dúvidas de quem está orçando.</div></div><div class="card step"><div class="n">03 · Contato</div><div class="k">WhatsApp</div><div class="v">Link com mensagem pronta leva a conversa direto para a equipe de vendas.</div></div><div class="card step hl"><div class="n">04 · Visita</div><div class="k">Agendamento</div><div class="v">A equipe registra “como nos conheceu?” e fecha o contrato presencialmente.</div></div></div></div></section>
+<section class="section" id="producao" data-theme="light" aria-label="Produção e parcerias"><div class="bgfx" aria-hidden="true"><div class="blob b-l1a"></div><div class="blob b-l1b"></div></div><div class="inner"><div class="kicker rv">Produção e parcerias</div><h2 class="section-title rv" style="--d:.08s">Um modelo de produção <b>contínuo</b>.</h2><div class="body-area"><ul class="findlist reveal-list"><li><b>Dias de captação programados:</b> acompanhar uma ou duas montagens por mês para registrar salões, cozinha, equipe e detalhes. Cada dia gera material para várias semanas.</li><li><b>Templates na identidade do buffet</b> para carrosséis, capas de Reels e Stories, garantindo agilidade e consistência visual.</li><li><b>Parceria com as produtoras:</b> receber uma seleção de fotos e um vídeo curto de cada evento, em troca de crédito e publicação em Collab. Com o tempo, forma-se uma rede de parceiros recorrentes.</li><li><b>Conteúdo dos clientes:</b> incentivar noivos e famílias a marcar o perfil e compartilhar seus registros, com autorização de uso.</li><li><b>Cadência:</b> manter as três publicações semanais atuais, mudando o mix para dois Reels próprios e um carrossel, mais Stories em todos os dias de evento.</li></ul></div></div></section>
+<section class="section" id="medicao" data-theme="light" aria-label="Medição"><div class="bgfx" aria-hidden="true"><div class="blob b-l2a"></div><div class="blob b-l2b"></div></div><div class="inner"><div class="kicker rv">Medição</div><h2 class="section-title rv" style="--d:.08s">Indicadores que mostram o <b>retorno real</b>.</h2><div class="body-area"><table class="diag"><colgroup><col style="width:32%"><col style="width:68%"></colgroup><thead><tr><th>Indicador</th><th>Por que importa</th></tr></thead><tbody class="reveal-list"><tr><td class="chan">Alcance de não seguidores</td><td data-label="Por que importa">Mostra se o perfil está chegando a novos públicos</td></tr><tr><td class="chan">Envios e salvamentos</td><td data-label="Por que importa">São os sinais que o Instagram mais valoriza para distribuir o conteúdo</td></tr><tr><td class="chan">Retenção dos Reels</td><td data-label="Por que importa">Indica se o vídeo prende a atenção até o fim</td></tr><tr><td class="chan">Cliques no WhatsApp</td><td data-label="Por que importa">Medem o interesse real em falar com o buffet</td></tr><tr><td class="chan">Visitas agendadas via Instagram</td><td data-label="Por que importa">Conectam o conteúdo à etapa em que a venda acontece</td></tr><tr><td class="chan">Contratos fechados</td><td data-label="Por que importa">O resultado final, comparado mês a mês</td></tr></tbody></table><p class="note rv" style="--d:.5s">Antes de começar, registramos os números dos últimos 90 dias. Esse retrato inicial é a base para comparar a evolução.</p></div></div></section>
+<section class="section" id="insight-3" data-theme="dark" aria-label="Decisão compartilhada"><div class="bgfx" aria-hidden="true"><div class="blob b-d2a"></div><div class="blob b-d2b"></div></div><div class="inner"><div class="quote-wrap"><div class="quote rv">Para quem escolhe onde celebrar, a decisão é <b>emocional e compartilhada</b>. Muitas vezes, ela começa no Instagram.</div><div class="quote-sub rv" style="--d:.25s">Mostrar o espaço, a comida e as pessoas por trás de cada festa é a forma mais direta de transformar curiosidade em visita.</div></div></div></section>
+<section class="section" id="proximos" data-theme="light" aria-label="Próximos passos"><div class="bgfx" aria-hidden="true"><div class="blob b-l3a"></div><div class="blob b-l3b"></div></div><div class="inner"><div class="kicker rv">Próximos passos</div><h2 class="section-title rv" style="--d:.08s">Próximos <b>passos</b>.</h2><div class="body-area"><ul class="findlist reveal-list"><li>Acesso aos dados internos do Instagram (Insights) para registrar o retrato inicial dos números.</li><li>Alinhamento com a equipe de vendas para registrar a origem de cada visita agendada.</li><li>Aplicação dos ajustes imediatos: bio, link de WhatsApp, Destaques, posts fixados e legendas.</li><li>Primeiro dia de captação e conversa com as produtoras parceiras sobre o formato Collab e o direito de uso.</li><li>Calendário editorial do primeiro mês, com revisão dos resultados após 60 e 90 dias.</li></ul></div></div></section>
+<section class="section" id="encerramento" data-theme="light" aria-label="Obrigado"><div class="bgfx" aria-hidden="true"><div class="blob b-l1a"></div><div class="blob b-l1b"></div></div><div class="inner">
+<div class="kicker rv">Obrigado</div>
+<h1 class="headline rv" style="--d:.1s">Vamos fazer o Instagram estar<br class="br-lg"> à altura das <b>festas do Napoleão</b>.</h1>
+<div class="caption-block rv" style="--d:.25s;margin-top:56px">Rafael Dias<br>Análise preparada para Napoleão Buffet</div>
+<div class="legal-note rv" style="--d:.35s">© 2026 Rafael Dias — Designer Gráfico. Todos os direitos reservados. Os conceitos, a análise e as recomendações apresentados são de propriedade intelectual do designer até a quitação integral do projeto.</div>
+</div></section>
+
+<nav id="sidenav" aria-label="Navegação dos slides"><button type="button" onclick="goToId('capa')" aria-label="Capa"><span>Capa</span></button><button type="button" onclick="goToId('sumario')" aria-label="Sumário"><span>Sumário</span></button><button type="button" onclick="goToId('contexto')" aria-label="Contexto e escopo"><span>Contexto e escopo</span></button><button type="button" onclick="goToId('insight-1')" aria-label="Voz própria"><span>Voz própria</span></button><button type="button" onclick="goToId('retrato')" aria-label="Retrato atual do perfil"><span>Retrato atual do perfil</span></button><button type="button" onclick="goToId('numeros')" aria-label="O que os números mostram"><span>O que os números mostram</span></button><button type="button" onclick="goToId('algoritmo')" aria-label="Como o Instagram distribui conteúdo"><span>Como o Instagram distribui conteúdo</span></button><button type="button" onclick="goToId('insight-2')" aria-label="A pergunta-guia"><span>A pergunta-guia</span></button><button type="button" onclick="goToId('ativos')" aria-label="Ativos a aproveitar"><span>Ativos a aproveitar</span></button><button type="button" onclick="goToId('atencao')" aria-label="Pontos de atenção"><span>Pontos de atenção</span></button><button type="button" onclick="goToId('direcao')" aria-label="Direção"><span>Direção</span></button><button type="button" onclick="goToId('ajustes')" aria-label="Ajustes para começar já"><span>Ajustes para começar já</span></button><button type="button" onclick="goToId('editorias')" aria-label="Editorias de conteúdo"><span>Editorias de conteúdo</span></button><button type="button" onclick="goToId('funil')" aria-label="Do conteúdo à visita"><span>Do conteúdo à visita</span></button><button type="button" onclick="goToId('producao')" aria-label="Produção e parcerias"><span>Produção e parcerias</span></button><button type="button" onclick="goToId('medicao')" aria-label="Medição"><span>Medição</span></button><button type="button" onclick="goToId('insight-3')" aria-label="Decisão compartilhada"><span>Decisão compartilhada</span></button><button type="button" onclick="goToId('proximos')" aria-label="Próximos passos"><span>Próximos passos</span></button><button type="button" onclick="goToId('encerramento')" aria-label="Obrigado"><span>Obrigado</span></button></nav>
+<div id="controls">
+  <button type="button" id="prev" onclick="prev()" aria-label="Slide anterior">&#8592;</button>
+  <span id="counter">01 / 19</span>
+  <button type="button" id="next" onclick="next()" aria-label="Próximo slide">&#8594;</button>
+  <button type="button" id="menubtn" onclick="openSheet()" aria-label="Índice">&#9776;</button>
+</div>
+<div id="mnavsheet" role="dialog" aria-label="Índice"><div class="sheet"><h3>Índice</h3><button type="button" onclick="goToId('capa')"><b>01</b>Capa</button><button type="button" onclick="goToId('sumario')"><b>02</b>Sumário</button><button type="button" onclick="goToId('contexto')"><b>03</b>Contexto e escopo</button><button type="button" onclick="goToId('insight-1')"><b>04</b>Voz própria</button><button type="button" onclick="goToId('retrato')"><b>05</b>Retrato atual do perfil</button><button type="button" onclick="goToId('numeros')"><b>06</b>O que os números mostram</button><button type="button" onclick="goToId('algoritmo')"><b>07</b>Como o Instagram distribui conteúdo</button><button type="button" onclick="goToId('insight-2')"><b>08</b>A pergunta-guia</button><button type="button" onclick="goToId('ativos')"><b>09</b>Ativos a aproveitar</button><button type="button" onclick="goToId('atencao')"><b>10</b>Pontos de atenção</button><button type="button" onclick="goToId('direcao')"><b>11</b>Direção</button><button type="button" onclick="goToId('ajustes')"><b>12</b>Ajustes para começar já</button><button type="button" onclick="goToId('editorias')"><b>13</b>Editorias de conteúdo</button><button type="button" onclick="goToId('funil')"><b>14</b>Do conteúdo à visita</button><button type="button" onclick="goToId('producao')"><b>15</b>Produção e parcerias</button><button type="button" onclick="goToId('medicao')"><b>16</b>Medição</button><button type="button" onclick="goToId('insight-3')"><b>17</b>Decisão compartilhada</button><button type="button" onclick="goToId('proximos')"><b>18</b>Próximos passos</button><button type="button" onclick="goToId('encerramento')"><b>19</b>Obrigado</button></div></div>
+<script>
+const slides=[...document.querySelectorAll('.section')];
+let cur=0, lock=false;
+const dots=[...document.querySelectorAll('#sidenav button')];
+const mitems=[...document.querySelectorAll('#mnavsheet .sheet button')];
+function setTheme(t){document.body.dataset.theme=t;}
+function updateChrome(){
+  const s=slides[cur];
+  setTheme(s.dataset.theme);
+  document.getElementById('counter').textContent=String(cur+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+  document.getElementById('prev').disabled=cur===0;
+  document.getElementById('next').disabled=cur===slides.length-1;
+  dots.forEach((d,i)=>d.classList.toggle('on',i===cur));
+  mitems.forEach((d,i)=>d.classList.toggle('on',i===cur));
+  document.getElementById('progress').style.width=((cur+1)/slides.length*100)+'%';
+}
+function runCounters(s){
+  s.querySelectorAll('.count').forEach(el=>{
+    const to=+el.dataset.to, t0=performance.now(), dur=1400;
+    el.textContent='0';
+    setTimeout(()=>{const st=performance.now();(function step(now){const p=Math.min(1,(now-st)/dur);el.textContent=Math.round(to*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(step);})(st);},500);
+  });
+}
+function goToSlide(i){
+  i=Math.max(0,Math.min(slides.length-1,i));
+  if(i===cur && slides[cur].classList.contains('active')) return;
+  slides[cur].classList.remove('active');
+  cur=i;
+  const s=slides[cur];
+  s.scrollTop=0;
+  s.classList.add('active');
+  updateChrome();
+  runCounters(s);
+  try{history.replaceState(null,'','#'+s.id);}catch(e){}
+  lock=true; setTimeout(()=>lock=false,750);
+}
+function next(){goToSlide(cur+1)}
+function prev(){goToSlide(cur-1)}
+function goToId(id){const i=slides.findIndex(s=>s.id===id); if(i>=0){goToSlide(i); closeSheet();}}
+function openSheet(){document.getElementById('mnavsheet').classList.add('open')}
+function closeSheet(){document.getElementById('mnavsheet').classList.remove('open')}
+
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();next();}
+  else if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();prev();}
+  else if(e.key==='Home'){e.preventDefault();goToSlide(0);}
+  else if(e.key==='End'){e.preventDefault();goToSlide(slides.length-1);}
+  else if(e.key==='Escape'){closeSheet();}
+});
+let wheelAcc=0, wheelT=null;
+window.addEventListener('wheel',e=>{
+  if(document.getElementById('mnavsheet').classList.contains('open')) return;
+  const s=slides[cur], dy=e.deltaY;
+  const canDown=s.scrollTop+s.clientHeight<s.scrollHeight-2, canUp=s.scrollTop>2;
+  if((dy>0&&canDown)||(dy<0&&canUp)) return;
+  if(lock) return;
+  wheelAcc+=dy; clearTimeout(wheelT); wheelT=setTimeout(()=>wheelAcc=0,200);
+  if(wheelAcc>60){wheelAcc=0;next();} else if(wheelAcc<-60){wheelAcc=0;prev();}
+},{passive:true});
+let tx=0,ty=0;
+window.addEventListener('touchstart',e=>{tx=e.changedTouches[0].clientX;ty=e.changedTouches[0].clientY;},{passive:true});
+window.addEventListener('touchend',e=>{
+  const dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+  if(Math.abs(dx)>55 && Math.abs(dx)>1.4*Math.abs(dy)){ dx<0?next():prev(); }
+},{passive:true});
+document.getElementById('mnavsheet').addEventListener('click',e=>{if(e.target.id==='mnavsheet')closeSheet();});
+const start=slides.findIndex(s=>'#'+s.id===location.hash);
+cur=start>0?start:0;
+slides[cur].classList.add('active');
+updateChrome();
+requestAnimationFrame(()=>runCounters(slides[cur]));
+</script>
+</body>
+</html>
